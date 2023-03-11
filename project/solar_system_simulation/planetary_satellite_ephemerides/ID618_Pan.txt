@@ -1,0 +1,94 @@
+
+
+*******************************************************************************
+Ephemeris / API_USER Mon Dec 20 15:55:58 2021 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Pan (618)                       {source: sat415_merged_DE437}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2000-Jan-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2001-Dec-01 00:00:00.0000 TDB
+Step-size       : 100800 minutes
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)                                                  
+Output units    : AU-D
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,
+**************************************************************************************************************************************************************************************************
+$$SOE
+2451544.500000000, A.D. 2000-Jan-01 00:00:00.0000,  6.402139735496072E+00,  6.564760832049854E+00, -3.687344224537958E-01,  1.382197024457546E-03,  1.068050856331795E-02, -4.007391678103862E-03,
+2451614.500000000, A.D. 2000-Mar-11 00:00:00.0000,  6.094868396150653E+00,  6.830323566484932E+00, -3.610343983919258E-01,  2.603433568529902E-03, -2.519803724434826E-03,  2.690062903019744E-03,
+2451684.500000000, A.D. 2000-May-20 00:00:00.0000,  5.777466420975744E+00,  7.084213566458737E+00, -3.534352799938864E-01, -1.219218266557600E-02, -1.596497673731515E-03,  3.534716289179667E-03,
+2451754.500000000, A.D. 2000-Jul-29 00:00:00.0000,  5.450358456705990E+00,  7.323203288889279E+00, -3.445288305307176E-01, -9.774762138278095E-03,  1.092685579562523E-02, -3.369410307240810E-03,
+2451824.500000000, A.D. 2000-Oct-07 00:00:00.0000,  5.111109000615691E+00,  7.547368356083751E+00, -3.343463254409737E-01,  4.020994503610394E-03,  6.167613503786930E-03, -2.322904459033522E-03,
+2451894.500000000, A.D. 2000-Dec-16 00:00:00.0000,  4.761266680687017E+00,  7.758757339694935E+00, -3.243237019317424E-01, -2.458040215241296E-03, -5.526639654508237E-03,  4.318104660245659E-03,
+2451964.500000000, A.D. 2001-Feb-24 00:00:00.0000,  4.404195809675497E+00,  7.955638973314842E+00, -3.140763940023697E-01, -1.480880873934510E-02,  1.921093410290079E-03,  1.495183931755787E-03,
+2452034.500000000, A.D. 2001-May-05 00:00:00.0000,  4.038872974800186E+00,  8.135380925375053E+00, -3.023065138610576E-01, -5.271386387372360E-03,  1.110888958812117E-02, -4.361885280386406E-03,
+2452104.500000000, A.D. 2001-Jul-14 00:00:00.0000,  3.663695992783832E+00,  8.299467163610890E+00, -2.897999991172033E-01,  4.231248769353282E-03,  6.712905528954714E-04,  6.531150666742813E-05,
+2452174.500000000, A.D. 2001-Sep-22 00:00:00.0000,  3.281651517031538E+00,  8.449213032068387E+00, -2.776815538043865E-01, -8.120897673531345E-03, -6.209166402108849E-03,  4.743591109383632E-03,
+2452244.500000000, A.D. 2001-Dec-01 00:00:00.0000,  2.895141066259505E+00,  8.581947704503717E+00, -2.649126096923523E-01, -1.449873055923001E-02,  5.564716908670185E-03, -9.328779892412738E-04,
+$$EOE
+**************************************************************************************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous relativistic coordinate time is equivalent to the relativistic
+proper time of a clock at rest in a reference frame comoving with the
+solar system barycenter but outside the system's gravity well. It is the
+independent variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+
+  Calendar dates prior to 1582-Oct-15 are in the Julian calendar system.
+Later calendar dates are in the Gregorian system.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (au)
+      Y      Y-component of position vector (au)
+      Z      Z-component of position vector (au)
+      VX     X-component of velocity vector (au/day)                           
+      VY     Y-component of velocity vector (au/day)                           
+      VZ     Z-component of velocity vector (au/day)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

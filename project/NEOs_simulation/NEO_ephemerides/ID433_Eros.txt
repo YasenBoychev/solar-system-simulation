@@ -1,0 +1,107 @@
+
+
+*******************************************************************************
+Ephemeris / API_USER Mon Dec 20 14:58:18 2021 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 433 Eros (A898 PA)              {source: JPL#659}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2000-Jan-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2001-Dec-01 00:00:00.0000 TDB
+Step-size       : 100800 minutes
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)                                                  
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : AU-D
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2453311.5 ! 2004-Nov-02.00 (TDB)         Residual RMS= .3494         
+   EC= .2228078944584026   QR= 1.133355399799004   TP= 2453371.5859943051      
+   OM= 304.4010273379536   W=  178.665326776373    IN= 10.8291838260782        
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X= 3.739742611161106E-01  Y= 9.771563321932180E-01  Z= 6.227690580154441E-01
+  VX=-1.640089070798141E-02 VY= 3.657007337298757E-03 VZ=-8.820021479138533E-04
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= .0004463            RAD= 8.42               ROTPER= 5.27                
+   H= 10.43                G= .460                 B-V= .921                   
+                           ALBEDO= .250            STYP= S                     
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,
+**************************************************************************************************************************************************************************************************
+$$SOE
+2451544.500000000, A.D. 2000-Jan-01 00:00:00.0000, -1.205931260321899E+00, -5.565992628410701E-01, -2.488259142212865E-01,  3.527368115384717E-03, -1.497288740868954E-02, -1.062219277221384E-03,
+2451614.500000000, A.D. 2000-Mar-11 00:00:00.0000, -6.834205523380759E-01, -1.387986374624554E+00, -2.562684015002069E-01,  1.029983729435732E-02, -8.337437904994568E-03,  7.236897066650582E-04,
+2451684.500000000, A.D. 2000-May-20 00:00:00.0000,  1.116030908803973E-01, -1.710742713600180E+00, -1.657304564096004E-01,  1.172648301892000E-02, -9.836086383001169E-04,  1.743691282693268E-03,
+2451754.500000000, A.D. 2000-Jul-29 00:00:00.0000,  8.809583463432499E-01, -1.550038119430118E+00, -2.698646032524784E-02,  9.797184298819001E-03,  5.357338905011130E-03,  2.124608507955379E-03,
+2451824.500000000, A.D. 2000-Oct-07 00:00:00.0000,  1.425585525382208E+00, -9.960146141979167E-01,  1.188042261491616E-01,  5.375537602441539E-03,  1.017565212870328E-02,  1.947568663236285E-03,
+2451894.500000000, A.D. 2000-Dec-16 00:00:00.0000,  1.579701689521317E+00, -1.780940771118580E-01,  2.314854036565228E-01, -1.353515673499809E-03,  1.269746270853207E-02,  1.158084504217249E-03,
+2451964.500000000, A.D. 2001-Feb-24 00:00:00.0000,  1.189250469741354E+00,  6.825416556674641E-01,  2.628301513472605E-01, -1.000374556420117E-02,  1.089362771083852E-02, -4.022763553420011E-04,
+2452034.500000000, A.D. 2001-May-05 00:00:00.0000,  2.128339116179859E-01,  1.158529496053911E+00,  1.601012373292654E-01, -1.686547627554417E-02,  1.158866660149716E-03, -2.537785186101031E-03,
+2452104.500000000, A.D. 2001-Jul-14 00:00:00.0000, -8.799487042356561E-01,  7.249788199225148E-01, -5.932912199677359E-02, -1.176657043744607E-02, -1.287453959936696E-02, -3.250219975201757E-03,
+2452174.500000000, A.D. 2001-Sep-22 00:00:00.0000, -1.234338312621119E+00, -3.567283297122573E-01, -2.322939715389719E-01,  1.474597791081208E-03, -1.572821397166534E-02, -1.468937461030700E-03,
+2452244.500000000, A.D. 2001-Dec-01 00:00:00.0000, -8.093138785883353E-01, -1.271153465614318E+00, -2.641654120261551E-01,  9.511416076446868E-03, -9.738273207476798E-03,  4.469738398477747E-04,
+$$EOE
+**************************************************************************************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous relativistic coordinate time is equivalent to the relativistic
+proper time of a clock at rest in a reference frame comoving with the
+solar system barycenter but outside the system's gravity well. It is the
+independent variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+
+  Calendar dates prior to 1582-Oct-15 are in the Julian calendar system.
+Later calendar dates are in the Gregorian system.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (au)
+      Y      Y-component of position vector (au)
+      Z      Z-component of position vector (au)
+      VX     X-component of velocity vector (au/day)                           
+      VY     Y-component of velocity vector (au/day)                           
+      VZ     Z-component of velocity vector (au/day)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

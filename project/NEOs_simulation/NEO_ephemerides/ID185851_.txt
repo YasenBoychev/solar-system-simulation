@@ -1,0 +1,112 @@
+
+
+*******************************************************************************
+Ephemeris / API_USER Mon Dec 20 14:58:27 2021 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 185851 (2000 DP107)             {source: JPL#254}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2000-Jan-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2001-Dec-01 00:00:00.0000 TDB
+Step-size       : 100800 minutes
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)                                                  
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : AU-D
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2456987.5 ! 2014-Nov-26.00 (TDB)         Residual RMS= .25998        
+   EC= .3767654366237235   QR= .8509554359267857   TP= 2457003.7697867728      
+   OM= 358.7261383047706   W=  289.7475769707747   IN= 8.670449711470875       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X=-7.758714225978991E-02  Y=-7.346148397877205E-01  Z=-4.612663416773411E-01
+  VX= 2.150818148609324E-02 VY= 3.707424552704380E-04 VZ= 3.177333422404397E-04
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= 3.224E-8            RAD= .4315              ROTPER= 2.7754              
+   H= 18.21                G= .150                 B-V= n.a.                   
+                           ALBEDO= .137            STYP= n.a.                  
+Asteroid non-gravitational force model (AMRAT= m^2/kg;A1,A2,A3=au/d^2;R0=au):  
+   AMRAT=  0.                                                                  
+   A1= 0.                  A2= 9.620099490348E-15  A3= 0.                      
+ Non-standard or simulated/proxy model:                                        
+   ALN=  1.            NK=  0.       NM=  2.       NN=  5.093    R0=  1.       
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,
+**************************************************************************************************************************************************************************************************
+$$SOE
+2451544.500000000, A.D. 2000-Jan-01 00:00:00.0000, -1.226173927478940E+00,  1.278566488988447E+00,  1.917592251690738E-01, -5.892418015077353E-03, -8.906020749932407E-03, -1.372788195872949E-03,
+2451614.500000000, A.D. 2000-Mar-11 00:00:00.0000, -1.443035502380906E+00,  5.041846521651189E-01,  7.324721772724732E-02,  3.407887028585595E-04, -1.293955941811882E-02, -1.968780348959470E-03,
+2451684.500000000, A.D. 2000-May-20 00:00:00.0000, -1.054202298770567E+00, -4.410222297607354E-01, -6.949827535574757E-02,  1.187084219831782E-02, -1.261987329377805E-02, -1.886106429388598E-03,
+2451754.500000000, A.D. 2000-Jul-29 00:00:00.0000,  2.240892188755180E-01, -8.145782009001202E-01, -1.225602107674128E-01,  2.098845450477959E-02,  6.093902870920382E-03,  9.908127947115535E-04,
+2451824.500000000, A.D. 2000-Oct-07 00:00:00.0000,  1.090820496100178E+00,  2.009730522446921E-01,  3.473709498428952E-02,  2.718880259664760E-03,  1.730008347058959E-02,  2.643951506129073E-03,
+2451894.500000000, A.D. 2000-Dec-16 00:00:00.0000,  8.665825836940877E-01,  1.211454622278881E+00,  1.880166725548551E-01, -7.281574230517342E-03,  1.095109629906934E-02,  1.646646318634697E-03,
+2451964.500000000, A.D. 2001-Feb-24 00:00:00.0000,  2.346906443340188E-01,  1.729269924714062E+00,  2.650143754467489E-01, -1.005672204775984E-02,  3.996954831530682E-03,  5.787721275659996E-04,
+2452034.500000000, A.D. 2001-May-05 00:00:00.0000, -4.704485342648660E-01,  1.793347236239421E+00,  2.726569849747810E-01, -9.702606636124392E-03, -2.025048073103262E-03, -3.377385342937329E-04,
+2452104.500000000, A.D. 2001-Jul-14 00:00:00.0000, -1.074369441013668E+00,  1.462684713100303E+00,  2.204600135498203E-01, -7.195894280903962E-03, -7.312634074042384E-03, -1.135772230415675E-03,
+2452174.500000000, A.D. 2001-Sep-22 00:00:00.0000, -1.419319851448271E+00,  7.874872057530700E-01,  1.165581489207470E-01, -2.133870277770827E-03, -1.179412636959866E-02, -1.803108548985594E-03,
+2452244.500000000, A.D. 2001-Dec-01 00:00:00.0000, -1.271851670118916E+00, -1.347855334352590E-01, -2.348221931574440E-02,  7.324395371357091E-03, -1.375057142659119E-02, -2.072273372037109E-03,
+$$EOE
+**************************************************************************************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous relativistic coordinate time is equivalent to the relativistic
+proper time of a clock at rest in a reference frame comoving with the
+solar system barycenter but outside the system's gravity well. It is the
+independent variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+
+  Calendar dates prior to 1582-Oct-15 are in the Julian calendar system.
+Later calendar dates are in the Gregorian system.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (au)
+      Y      Y-component of position vector (au)
+      Z      Z-component of position vector (au)
+      VX     X-component of velocity vector (au/day)                           
+      VY     Y-component of velocity vector (au/day)                           
+      VZ     Z-component of velocity vector (au/day)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

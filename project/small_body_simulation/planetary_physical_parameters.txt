@@ -1,0 +1,15 @@
+# N.B. Includes the Sun, ID#10
+Body, ID, Mass (kg)
+Sun, 10, 1988500e24
+Mercury, 199, 0.330103e24
+Venus, 299, 4.86731e24
+Earth, 399, 5.97217e24
+Mars, 499, 0.641691e24
+Jupiter, 599, 1898.125e24
+Saturn, 699, 568.317e24
+Uranus, 799, 86.8099e24
+Neptune, 899, 102.4092e24
+Pluto, 999, 13029e18
+# Eris, 136199, 16600e18
+# Makemake, 136472, 3100e18
+# Haumea, 136108, 4006e18
